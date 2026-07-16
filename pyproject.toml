@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml_house_loan_prediction"
+version = "0.0.1"
+authors = [
+    {name = "Swetha Rao", email = "rao.b.swetha@gmail.com"}
+]
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn"
+]
+
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["."]
